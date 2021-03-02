@@ -1,11 +1,11 @@
 package manager
 
 import (
-	"github.com/micro/go-micro/v2/config/cmd"
-	"github.com/micro/go-micro/v2/runtime"
-	"github.com/micro/go-micro/v2/store"
-	"github.com/micro/go-micro/v2/store/memory"
-	"github.com/micro/micro/v2/internal/namespace"
+	"github.com/Augustu/go-micro/v2/config/cmd"
+	"github.com/Augustu/go-micro/v2/runtime"
+	"github.com/Augustu/go-micro/v2/store"
+	"github.com/Augustu/go-micro/v2/store/memory"
+	"github.com/Augustu/micro/v2/internal/namespace"
 )
 
 // Init initializes the runtime

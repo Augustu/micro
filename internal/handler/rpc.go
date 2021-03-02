@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/micro/go-micro/v2/api/server/cors"
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/config/cmd"
-	"github.com/micro/go-micro/v2/errors"
-	"github.com/micro/micro/v2/internal/helper"
+	"github.com/Augustu/go-micro/v2/api/server/cors"
+	"github.com/Augustu/go-micro/v2/client"
+	"github.com/Augustu/go-micro/v2/config/cmd"
+	"github.com/Augustu/go-micro/v2/errors"
+	"github.com/Augustu/micro/v2/internal/helper"
 )
 
 type rpcRequest struct {

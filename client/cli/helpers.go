@@ -10,13 +10,13 @@ import (
 	"strings"
 	"text/tabwriter"
 
+	"github.com/Augustu/go-micro/v2/client"
+	cbytes "github.com/Augustu/go-micro/v2/codec/bytes"
+	"github.com/Augustu/go-micro/v2/config/cmd"
+	"github.com/Augustu/go-micro/v2/util/file"
+	cliutil "github.com/Augustu/micro/v2/client/cli/util"
+	clic "github.com/Augustu/micro/v2/internal/command/cli"
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2/client"
-	cbytes "github.com/micro/go-micro/v2/codec/bytes"
-	"github.com/micro/go-micro/v2/config/cmd"
-	"github.com/micro/go-micro/v2/util/file"
-	cliutil "github.com/micro/micro/v2/client/cli/util"
-	clic "github.com/micro/micro/v2/internal/command/cli"
 )
 
 type exec func(*cli.Context, []string) ([]byte, error)

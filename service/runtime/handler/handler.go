@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/errors"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/runtime"
-	pb "github.com/micro/go-micro/v2/runtime/service/proto"
+	"github.com/Augustu/go-micro/v2"
+	"github.com/Augustu/go-micro/v2/errors"
+	log "github.com/Augustu/go-micro/v2/logger"
+	"github.com/Augustu/go-micro/v2/runtime"
+	pb "github.com/Augustu/go-micro/v2/runtime/service/proto"
 )
 
 type Runtime struct {

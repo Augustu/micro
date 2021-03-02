@@ -2,14 +2,15 @@
 package plugins
 
 import (
-	"github.com/micro/go-micro/v2/config/cmd"
+	"github.com/Augustu/go-micro/v2/config/cmd"
 
 	// import specific plugins
-	ckStore "github.com/micro/go-micro/v2/store/cockroach"
-	fileStore "github.com/micro/go-micro/v2/store/file"
-	memStore "github.com/micro/go-micro/v2/store/memory"
+	ckStore "github.com/Augustu/go-micro/v2/store/cockroach"
+	fileStore "github.com/Augustu/go-micro/v2/store/file"
+	memStore "github.com/Augustu/go-micro/v2/store/memory"
+
 	// we only use CF internally for certs
-	cfStore "github.com/micro/micro/v2/internal/plugins/store/cloudflare"
+	cfStore "github.com/Augustu/micro/v2/internal/plugins/store/cloudflare"
 )
 
 func init() {

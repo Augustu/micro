@@ -56,7 +56,7 @@ package main
 import (
 	"log"
 	"github.com/micro/cli/v2"
-	"github.com/micro/micro/plugin"
+	"github.com/Augustu/micro/plugin"
 )
 
 func init() {

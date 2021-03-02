@@ -11,10 +11,10 @@ import (
 	"os"
 	"time"
 
+	pb "github.com/Augustu/micro/v2/internal/usage/proto"
+	"github.com/Augustu/micro/v2/internal/version"
 	"github.com/golang/protobuf/proto"
 	"github.com/google/uuid"
-	pb "github.com/micro/micro/v2/internal/usage/proto"
-	"github.com/micro/micro/v2/internal/version"
 )
 
 var (

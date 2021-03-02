@@ -3,9 +3,9 @@ package cli
 import (
 	"net/url"
 
+	"github.com/Augustu/go-micro/v2/logger"
+	"github.com/Augustu/micro/v2/service/store/snapshot"
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/micro/v2/service/store/snapshot"
 	"github.com/pkg/errors"
 )
 

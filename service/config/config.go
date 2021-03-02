@@ -7,14 +7,14 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Augustu/go-micro/v2"
+	"github.com/Augustu/go-micro/v2/config/cmd"
+	proto "github.com/Augustu/go-micro/v2/config/source/service/proto"
+	log "github.com/Augustu/go-micro/v2/logger"
+	"github.com/Augustu/micro/v2/internal/client"
+	"github.com/Augustu/micro/v2/internal/helper"
+	"github.com/Augustu/micro/v2/service/config/handler"
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/config/cmd"
-	proto "github.com/micro/go-micro/v2/config/source/service/proto"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/micro/v2/internal/client"
-	"github.com/micro/micro/v2/internal/helper"
-	"github.com/micro/micro/v2/service/config/handler"
 )
 
 var (

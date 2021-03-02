@@ -13,17 +13,17 @@ import (
 	"text/tabwriter"
 	"time"
 
+	"github.com/Augustu/go-micro/v2"
+	"github.com/Augustu/go-micro/v2/config/cmd"
+	log "github.com/Augustu/go-micro/v2/logger"
+	"github.com/Augustu/go-micro/v2/runtime"
+	"github.com/Augustu/go-micro/v2/runtime/local/git"
+	srvRuntime "github.com/Augustu/go-micro/v2/runtime/service"
+	"github.com/Augustu/go-micro/v2/util/file"
+	cliutil "github.com/Augustu/micro/v2/client/cli/util"
+	"github.com/Augustu/micro/v2/internal/client"
+	"github.com/Augustu/micro/v2/service/runtime/handler"
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/config/cmd"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/runtime"
-	"github.com/micro/go-micro/v2/runtime/local/git"
-	srvRuntime "github.com/micro/go-micro/v2/runtime/service"
-	"github.com/micro/go-micro/v2/util/file"
-	cliutil "github.com/micro/micro/v2/client/cli/util"
-	"github.com/micro/micro/v2/internal/client"
-	"github.com/micro/micro/v2/service/runtime/handler"
 )
 
 const (
@@ -45,9 +45,9 @@ var (
 	// DefaultRetries which should be attempted when starting a service
 	DefaultRetries = 3
 	// Image to specify if none is specified
-	Image = "docker.pkg.github.com/micro/services"
+	Image = "docker.pkg.github.com/Augustu/services"
 	// Source where we get services from
-	Source = "github.com/micro/services"
+	Source = "github.com/Augustu/services"
 )
 
 // timeAgo returns the time passed
@@ -129,7 +129,7 @@ func runService(ctx *cli.Context, srvOpts ...micro.Option) {
 	// set the image if not specified
 	if len(image) == 0 {
 		formattedName := strings.ReplaceAll(source.Folder, "/", "-")
-		// eg. docker.pkg.github.com/micro/services/users-api
+		// eg. docker.pkg.github.com/Augustu/services/users-api
 		image = fmt.Sprintf("%v/%v", Image, formattedName)
 	}
 

@@ -1,5 +1,5 @@
 FROM micro/go-micro
-FROM micro/micro
+FROM Augustu/micro
 
 WORKDIR /
 COPY entrypoint.sh /

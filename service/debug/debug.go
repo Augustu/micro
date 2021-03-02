@@ -2,18 +2,18 @@
 package debug
 
 import (
+	"github.com/Augustu/go-micro/v2"
+	"github.com/Augustu/go-micro/v2/debug/log"
+	"github.com/Augustu/go-micro/v2/debug/log/kubernetes"
+	dservice "github.com/Augustu/go-micro/v2/debug/service"
+	ulog "github.com/Augustu/go-micro/v2/logger"
+	logHandler "github.com/Augustu/micro/v2/service/debug/log/handler"
+	pblog "github.com/Augustu/micro/v2/service/debug/log/proto"
+	statshandler "github.com/Augustu/micro/v2/service/debug/stats/handler"
+	pbstats "github.com/Augustu/micro/v2/service/debug/stats/proto"
+	tracehandler "github.com/Augustu/micro/v2/service/debug/trace/handler"
+	pbtrace "github.com/Augustu/micro/v2/service/debug/trace/proto"
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/debug/log"
-	"github.com/micro/go-micro/v2/debug/log/kubernetes"
-	dservice "github.com/micro/go-micro/v2/debug/service"
-	ulog "github.com/micro/go-micro/v2/logger"
-	logHandler "github.com/micro/micro/v2/service/debug/log/handler"
-	pblog "github.com/micro/micro/v2/service/debug/log/proto"
-	statshandler "github.com/micro/micro/v2/service/debug/stats/handler"
-	pbstats "github.com/micro/micro/v2/service/debug/stats/proto"
-	tracehandler "github.com/micro/micro/v2/service/debug/trace/handler"
-	pbtrace "github.com/micro/micro/v2/service/debug/trace/proto"
 )
 
 var (

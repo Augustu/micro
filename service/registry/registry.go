@@ -5,15 +5,15 @@ import (
 	"context"
 	"time"
 
+	"github.com/Augustu/go-micro/v2"
+	log "github.com/Augustu/go-micro/v2/logger"
+	"github.com/Augustu/go-micro/v2/registry"
+	"github.com/Augustu/go-micro/v2/registry/service"
+	pb "github.com/Augustu/go-micro/v2/registry/service/proto"
+	rcli "github.com/Augustu/micro/v2/client/cli"
+	"github.com/Augustu/micro/v2/internal/helper"
+	"github.com/Augustu/micro/v2/service/registry/handler"
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/registry/service"
-	pb "github.com/micro/go-micro/v2/registry/service/proto"
-	rcli "github.com/micro/micro/v2/client/cli"
-	"github.com/micro/micro/v2/internal/helper"
-	"github.com/micro/micro/v2/service/registry/handler"
 )
 
 var (

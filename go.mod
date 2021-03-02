@@ -1,8 +1,9 @@
-module github.com/micro/micro/v2
+module github.com/Augustu/micro/v2
 
-go 1.13
+go 1.16
 
 require (
+	github.com/Augustu/go-micro/v2 v2.9.2
 	github.com/aws/aws-sdk-go v1.23.0
 	github.com/boltdb/bolt v1.3.1
 	github.com/chzyer/logex v1.1.10 // indirect
@@ -17,7 +18,6 @@ require (
 	github.com/gorilla/handlers v1.4.2
 	github.com/gorilla/mux v1.7.3
 	github.com/micro/cli/v2 v2.1.2
-	github.com/micro/go-micro/v2 v2.9.1
 	github.com/miekg/dns v1.1.27
 	github.com/netdata/go-orchestrator v0.0.0-20190905093727-c793edba0e8f
 	github.com/olekukonko/tablewriter v0.0.4

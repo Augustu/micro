@@ -5,14 +5,14 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/Augustu/go-micro/v2"
+	"github.com/Augustu/go-micro/v2/config/cmd"
+	log "github.com/Augustu/go-micro/v2/logger"
+	gorun "github.com/Augustu/go-micro/v2/runtime"
+	handler "github.com/Augustu/go-micro/v2/util/file"
+	"github.com/Augustu/micro/v2/internal/platform"
+	"github.com/Augustu/micro/v2/internal/update"
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/config/cmd"
-	log "github.com/micro/go-micro/v2/logger"
-	gorun "github.com/micro/go-micro/v2/runtime"
-	handler "github.com/micro/go-micro/v2/util/file"
-	"github.com/micro/micro/v2/internal/platform"
-	"github.com/micro/micro/v2/internal/update"
 )
 
 var (

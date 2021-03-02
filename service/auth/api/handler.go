@@ -3,10 +3,10 @@ package api
 import (
 	"context"
 
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/auth"
-	"github.com/micro/go-micro/v2/errors"
-	pb "github.com/micro/micro/v2/service/auth/api/proto"
+	"github.com/Augustu/go-micro/v2"
+	"github.com/Augustu/go-micro/v2/auth"
+	"github.com/Augustu/go-micro/v2/errors"
+	pb "github.com/Augustu/micro/v2/service/auth/api/proto"
 )
 
 // Handler is an impementation of the auth api

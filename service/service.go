@@ -5,17 +5,17 @@ import (
 	"os"
 	"strings"
 
+	"github.com/Augustu/go-micro/v2"
+	log "github.com/Augustu/go-micro/v2/logger"
+	"github.com/Augustu/go-micro/v2/proxy"
+	"github.com/Augustu/go-micro/v2/proxy/grpc"
+	"github.com/Augustu/go-micro/v2/proxy/http"
+	"github.com/Augustu/go-micro/v2/proxy/mucp"
+	"github.com/Augustu/go-micro/v2/runtime"
+	"github.com/Augustu/go-micro/v2/server"
+	"github.com/Augustu/micro/v2/service/handler/exec"
+	"github.com/Augustu/micro/v2/service/handler/file"
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/proxy"
-	"github.com/micro/go-micro/v2/proxy/grpc"
-	"github.com/micro/go-micro/v2/proxy/http"
-	"github.com/micro/go-micro/v2/proxy/mucp"
-	"github.com/micro/go-micro/v2/runtime"
-	"github.com/micro/go-micro/v2/server"
-	"github.com/micro/micro/v2/service/handler/exec"
-	"github.com/micro/micro/v2/service/handler/file"
 )
 
 func Run(ctx *cli.Context, opts ...micro.Option) {

@@ -9,10 +9,10 @@ import (
 	"os"
 	"strings"
 
+	"github.com/Augustu/micro/v2/internal/config"
+	"github.com/Augustu/micro/v2/internal/platform"
+	"github.com/Augustu/micro/v2/service/runtime/profile"
 	ccli "github.com/micro/cli/v2"
-	"github.com/micro/micro/v2/internal/config"
-	"github.com/micro/micro/v2/internal/platform"
-	"github.com/micro/micro/v2/service/runtime/profile"
 )
 
 const (

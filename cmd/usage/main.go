@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
+	pb "github.com/Augustu/micro/v2/cmd/usage/proto"
 	"github.com/boltdb/bolt"
 	"github.com/golang/protobuf/proto"
 	"github.com/gorilla/handlers"
-	pb "github.com/micro/micro/v2/cmd/usage/proto"
 )
 
 var (

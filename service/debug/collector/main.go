@@ -4,9 +4,9 @@ import (
 	"os"
 	"path"
 
-	"github.com/micro/go-micro/v2"
-	log "github.com/micro/go-micro/v2/logger"
-	plugin "github.com/micro/micro/v2/service/debug/collector/micro"
+	"github.com/Augustu/go-micro/v2"
+	log "github.com/Augustu/go-micro/v2/logger"
+	plugin "github.com/Augustu/micro/v2/service/debug/collector/micro"
 	"github.com/netdata/go-orchestrator"
 	"github.com/netdata/go-orchestrator/cli"
 	"github.com/netdata/go-orchestrator/pkg/multipath"

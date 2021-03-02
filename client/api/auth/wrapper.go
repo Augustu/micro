@@ -7,13 +7,13 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/micro/go-micro/v2/api/resolver"
-	"github.com/micro/go-micro/v2/api/server"
-	"github.com/micro/go-micro/v2/auth"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/util/ctx"
-	inauth "github.com/micro/micro/v2/internal/auth"
-	"github.com/micro/micro/v2/internal/namespace"
+	"github.com/Augustu/go-micro/v2/api/resolver"
+	"github.com/Augustu/go-micro/v2/api/server"
+	"github.com/Augustu/go-micro/v2/auth"
+	"github.com/Augustu/go-micro/v2/logger"
+	"github.com/Augustu/go-micro/v2/util/ctx"
+	inauth "github.com/Augustu/micro/v2/internal/auth"
+	"github.com/Augustu/micro/v2/internal/namespace"
 )
 
 // Wrapper wraps a handler and authenticates requests

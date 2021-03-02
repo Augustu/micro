@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Augustu/go-micro/v2/agent/command"
+	"github.com/Augustu/go-micro/v2/agent/input"
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2/agent/command"
-	"github.com/micro/go-micro/v2/agent/input"
 
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/registry/memory"
+	"github.com/Augustu/go-micro/v2"
+	"github.com/Augustu/go-micro/v2/registry/memory"
 )
 
 type testInput struct {

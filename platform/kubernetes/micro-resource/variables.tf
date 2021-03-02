@@ -10,7 +10,7 @@ variable "image_pull_policy" {
 
 variable "micro_image" {
   description = "Micro docker image"
-  default     = "micro/micro"
+  default     = "Augustu/micro"
 }
 
 variable "etcd_image" {

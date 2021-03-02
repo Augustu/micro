@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/micro/go-micro/v2/auth"
-	pb "github.com/micro/go-micro/v2/auth/service/proto"
-	"github.com/micro/go-micro/v2/errors"
-	"github.com/micro/go-micro/v2/store"
-	"github.com/micro/micro/v2/internal/namespace"
+	"github.com/Augustu/go-micro/v2/auth"
+	pb "github.com/Augustu/go-micro/v2/auth/service/proto"
+	"github.com/Augustu/go-micro/v2/errors"
+	"github.com/Augustu/go-micro/v2/store"
+	"github.com/Augustu/micro/v2/internal/namespace"
 )
 
 // List returns all auth accounts

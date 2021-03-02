@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micro/go-micro/v2/runtime"
-	"github.com/micro/go-micro/v2/store/memory"
-	"github.com/micro/micro/v2/internal/namespace"
+	"github.com/Augustu/go-micro/v2/runtime"
+	"github.com/Augustu/go-micro/v2/store/memory"
+	"github.com/Augustu/micro/v2/internal/namespace"
 )
 
 func TestEvents(t *testing.T) {

@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Augustu/go-micro/v2/api/server/acme"
+	cert "github.com/Augustu/go-micro/v2/api/server/acme/certmagic"
+	"github.com/Augustu/go-micro/v2/sync/memory"
+	cfstore "github.com/Augustu/micro/v2/internal/plugins/store/cloudflare"
 	"github.com/go-acme/lego/v3/providers/dns/cloudflare"
-	"github.com/micro/go-micro/v2/api/server/acme"
-	cert "github.com/micro/go-micro/v2/api/server/acme/certmagic"
-	"github.com/micro/go-micro/v2/sync/memory"
-	cfstore "github.com/micro/micro/v2/internal/plugins/store/cloudflare"
 )
 
 func TestCertMagic(t *testing.T) {

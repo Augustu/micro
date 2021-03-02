@@ -3,9 +3,9 @@ package cli
 import (
 	"strings"
 
+	"github.com/Augustu/go-micro/v2/config/cmd"
+	"github.com/Augustu/go-micro/v2/store"
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2/config/cmd"
-	"github.com/micro/go-micro/v2/store"
 	"github.com/pkg/errors"
 )
 
