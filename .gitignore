@@ -32,3 +32,6 @@ coverage.out
 micro
 !micro/
 dist
+
+# ignore vscode config
+.vscode
